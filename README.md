@@ -23,6 +23,12 @@ to access the value of state by calling this.props
  * deprecated
  
 | getDefaultProps
+
+ # value accessor
+ 
+ | this.props.__
+ 
+ | this.state.__
  
  # JQuery
  
