@@ -8,21 +8,21 @@ to access the value of state by calling this.props
 
 | componentWillReceiveProps()
 
-shouldComponentUpdate()
+| shouldComponentUpdate()
  
-componentWillMount()
+| componentWillMount()
 
-componentWillUpdate()
+| componentWillUpdate()
  
-render()
+| render()
  
-componentDidMount()
+| componentDidMount()
  
-componentDidUpdate()
+| componentDidUpdate()
  
  * deprecated
  
- getDefaultProps
+| getDefaultProps
  
  # JQuery
  
