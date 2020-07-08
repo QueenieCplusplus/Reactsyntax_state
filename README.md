@@ -4,9 +4,9 @@ to access the value of state by calling this.props
 
 # LifeCycle
 
-getInitialState()
+| getInitialState()
 
-componentWillReceiveProps()
+| componentWillReceiveProps()
 
 shouldComponentUpdate()
  
