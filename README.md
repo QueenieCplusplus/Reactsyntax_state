@@ -15,5 +15,17 @@ to access the value of state by calling this.props
  * deprecated
  
  getDefaultProps
+ 
+ # ES5
+ 
+ React.creatClass()
+ 
+ 
+ 
+ # ES6
+ 
+ Classname extends ____
+ 
+ 
   
   
