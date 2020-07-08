@@ -18,6 +18,8 @@ to access the value of state by calling this.props
  
  # ES5
  
+ var ReactTestUtils = require('react-dom/test-utils'); // ES5 with npm
+ 
  React.creatClass()
  
  
