@@ -29,7 +29,36 @@ to access the value of state by calling this.props
  
  # ES6
  
- Classname extends ____
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.method = this.method.bind(this);
+  }
+  componentDidMount() {
+      ${this.state.count}
+   
+  }
+  componentDidUpdate() {
+       ${this.state.count}
+  }
+  method() {
+    this.setState(state => ({
+      count: state.count + 1,
+    }));
+  }
+  render() {
+    return (
+      <div>
+        <p> {this.state.count} </p>
+        <button onClick={method}>
+          Click me
+        </button>
+      </div>
+    );
+  }
+}
+
  
  
   
