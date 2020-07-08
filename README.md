@@ -4,25 +4,29 @@ to access the value of state by calling this.props
 
 # LifeCycle
 
-| getInitialState()
+    | getInitialState()
 
-| componentWillReceiveProps()
+    | componentWillReceiveProps(props){
 
-| shouldComponentUpdate()
- 
-| componentWillMount()
+          setState({object})
 
-| componentWillUpdate()
- 
-| render()
- 
-| componentDidMount()
- 
-| componentDidUpdate()
- 
- * deprecated
- 
-| getDefaultProps
+       }
+
+       | shouldComponentUpdate()
+
+       | componentWillMount()
+
+       | componentWillUpdate()
+
+       | render()
+
+       | componentDidMount()
+
+       | componentDidUpdate()
+
+        * deprecated
+
+       | getDefaultProps
 
  # value accessor
  
