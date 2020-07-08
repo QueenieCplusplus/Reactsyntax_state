@@ -4,13 +4,21 @@ to access the value of state by calling this.props
 
 # LifeCycle
 
- getInitialState
+getInitialState()
+
+componentWillReceiveProps()
+
+shouldComponentUpdate()
  
- componentWillMount
+componentWillMount()
+
+componentWillUpdate()
  
- render
+render()
  
- componentDidMount
+componentDidMount()
+ 
+componentDidUpdate()
  
  * deprecated
  
