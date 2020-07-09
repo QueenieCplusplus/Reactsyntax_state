@@ -1,4 +1,4 @@
-# Reactsyntax_state
+# Reactsyntax state
 to access the value of state by calling this.props
 
 
