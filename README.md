@@ -2,7 +2,9 @@
 to access the value of state by calling this.props
 
 
-# LifeCycle
+# LifeCycle 2016
+
+2020 version see https://zh-hant.reactjs.org/docs/react-component.html
 
     | getInitialState()
 
